@@ -43,14 +43,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\CoinChangeProblem.cs" />
     <Compile Include="DynamicProgramming\FibonacciSeries.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
+    <Compile Include="DynamicProgramming\LongestIncreasingSubSequence.cs" />
+    <Compile Include="DynamicProgramming\MaxSumOfSubSet.cs" />
+    <Compile Include="DynamicProgramming\MinimumStepsToOne.cs" />
+    <Compile Include="DynamicProgramming\NbyNQueens.cs" />
+    <Compile Include="DynamicProgramming\NumberOfEditsToConvertStringAToB.cs" />
+    <Compile Include="DynamicProgramming\SherlockAndCost.cs" />
     <Compile Include="DynamicProgramming\SubSetSumProblem.cs" />
+    <Compile Include="DynamicProgramming\WeightedJobScheduling.cs" />
     <Compile Include="Graphs\BreadthFirstSearch.cs" />
     <Compile Include="Graphs\DepthFirstSearch.cs" />
     <Compile Include="Graphs\Djikstra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
+    <Compile Include="Sorting\Helper.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Searching\LinearSearch.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Subset\Subset.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

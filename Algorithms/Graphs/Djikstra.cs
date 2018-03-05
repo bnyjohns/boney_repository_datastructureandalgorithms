@@ -8,7 +8,7 @@ namespace Algorithms.Graphs
 {
     class Djikstra
     {
-        public static void Main()
+        public static void GetShortestPath()
         {
             var undefined = "UNDEFINED";
             var consoleInp = new string[] { "a b 4", "a c 2", "b d 5", "c d 8", "c e 10", "d e 2", "d z 6", "e z 2" };

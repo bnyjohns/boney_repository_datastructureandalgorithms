@@ -22,16 +22,16 @@ namespace Problems
         public bool IsBalanced(string input)
         {
             var result = true;
-            foreach (var i in input)
+            foreach (var i in input)//i = '}'
             {
                 if (start.Contains(i))
                     _stack.Push(i);
 
                 else
                 {
-                    var val = (char)_stack.Pop();
-                    var index = Array.IndexOf(end, i);
-                    if (val == start[index])
+                    var val = (char)_stack.Pop();//{
+                    var index = Array.IndexOf(end, i);//0
+                    if (val == start[index])//{ == {
                         continue;                   
                     result = false;
                     break;                    

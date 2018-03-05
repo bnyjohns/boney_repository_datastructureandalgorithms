@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Algorithms.DynamicProgramming;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,10 +10,9 @@ namespace Algorithms
 {
     class Program
     {
-        //public static void Main()
-        //{
-        //    var arr = new int[] { 1, 3, 2, 5, 4, 9 };
-        //    var result = SubSetSumProblem.GetmNumberOfSubsets(arr, 9);
-        //}
+        public static void Main()
+        {
+            SherlockAndCost.GetMaxCost(new int[] { 3, 1, 3 });
+        }
     }
 }

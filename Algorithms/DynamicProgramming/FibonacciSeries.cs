@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithms.DynamicProgramming
 {
-    class FibonacciSeries
+    public class FibonacciSeries
     {
         static Dictionary<int, int> lkup = new Dictionary<int, int>();
         static FibonacciSeries()
@@ -35,12 +35,16 @@ namespace Algorithms.DynamicProgramming
             if (n == 1)
                 return a;
             if (n == 2)
-                return 0;
-
-            while (true)
+                return b;
+            var result = 1;
+            while(n > 2)
             {
-
+                result = a + b;
+                a = b;
+                b = result;
+                n--;
             }
+            return result;
         }
     }
 }
