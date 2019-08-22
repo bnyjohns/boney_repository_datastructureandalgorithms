@@ -1,4 +1,6 @@
 ﻿using Algorithms.DynamicProgramming;
+using Algorithms.Graphs;
+using Algorithms.Searching;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +14,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            SherlockAndCost.GetMaxCost(new int[] { 3, 1, 3 });
+            TravellingSalesman.Start();
         }
     }
 }

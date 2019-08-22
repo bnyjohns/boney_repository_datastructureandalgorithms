@@ -57,8 +57,15 @@
     <Compile Include="Graphs\BreadthFirstSearch.cs" />
     <Compile Include="Graphs\DepthFirstSearch.cs" />
     <Compile Include="Graphs\Djikstra.cs" />
+    <Compile Include="Graphs\EarthQuake In Africa\Solution.cs" />
+    <Compile Include="Graphs\Hare And Tortoise Race\Solution.cs" />
+    <Compile Include="Graphs\TravellingSalesman.cs" />
+    <Compile Include="Graphs\UnWeightedGraph.cs" />
+    <Compile Include="Graphs\WeightedGraph.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Searching\SearchSortedRotatedArray.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="Sorting\Helper.cs" />
@@ -68,6 +75,13 @@
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Subset\Subset.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graphs\EarthQuake In Africa\EarthQuake in Africa.txt" />
+    <Content Include="Graphs\Hare And Tortoise Race\Problem.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Greedy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

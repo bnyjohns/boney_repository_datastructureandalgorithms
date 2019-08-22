@@ -22,9 +22,8 @@ namespace Algorithms.DynamicProgramming
                 return lkup[n];            
 
             var a = GetFibonacci(n - 1);
-            lkup.Add(n - 1, a);
             var b = GetFibonacci(n - 2);
-            lkup.Add(n - 2, b);
+            lkup.Add(n, a + b);
             return a + b;
         }
 
@@ -37,7 +36,7 @@ namespace Algorithms.DynamicProgramming
             if (n == 2)
                 return b;
             var result = 1;
-            while(n > 2)
+            while(n >= 2)
             {
                 result = a + b;
                 a = b;

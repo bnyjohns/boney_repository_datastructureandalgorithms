@@ -10,17 +10,31 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            var bst = new BinarySearchTree<int>();
-            var root = bst.Add(null, new Tuple<int, int>(30, 30));
-            bst.Add(root, new Tuple<int, int>(20, 20));
-            bst.Add(root, new Tuple<int, int>(40, 40));
-            bst.Add(root, new Tuple<int, int>(70, 70));
-            bst.Add(root, new Tuple<int, int>(60, 60));
-            bst.Add(root, new Tuple<int, int>(80, 80));
+            var inp = new int[] { 2, -1, -5, 0, -2, 1, 2, -2 };
+            var dp = new int[inp.Length];
+            dp[0] = inp[0];
 
-            bst.InOrderTraverseAndPrint(root);
+            for (int i = 1; i < inp.Length; i++)
+            {
+                var temp = inp[i] + dp[i - 1];
+                if (temp > inp[i])
+                {
+                    dp[i] = temp;
+                }
+                else
+                {
+                    dp[i] = inp[i];
+                }
+            }
 
-            var searchResult = bst.Search(89, root);
+            var maximum = dp[0];
+            for (int i = 1; i < dp.Length; i++)
+            {
+                if (maximum < dp[i])
+                    maximum = dp[i];
+            }
+            Console.WriteLine(maximum);
+
 
             //var queue = new QueueUsingStack();
             //queue.EnQueue(1);

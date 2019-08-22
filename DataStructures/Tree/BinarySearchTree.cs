@@ -86,5 +86,33 @@ namespace DataStructures
                 return nodeToInsert;                
             }
         }
+
+        //public bool BFS(int searchInput)
+        //{
+        //    if (Root == null)
+        //        return false;
+
+        //    if (Root.Value == searchInput)
+        //        return true;
+        //    Console.WriteLine($"Searched node: {Root.Value}");
+        //    Queue<Node> queue = new Queue<Node>();
+        //    if (Root.Left != null)
+        //        queue.Enqueue(Root.Left);
+        //    if (Root.Right != null)
+        //        queue.Enqueue(Root.Right);
+
+        //    while (queue.Count > 0)
+        //    {
+        //        var current = queue.Dequeue();
+        //        if (current.Value == searchInput)
+        //            return true;
+        //        Console.WriteLine($"Searched node: {current.Value}");
+        //        if (current.Left != null)
+        //            queue.Enqueue(current.Left);
+        //        if (current.Right != null)
+        //            queue.Enqueue(current.Right);
+        //    }
+        //    return false;
+        //}
     }
 }
