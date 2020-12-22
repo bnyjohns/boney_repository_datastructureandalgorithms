@@ -1,11 +1,4 @@
-﻿using Algorithms.Graphs;
-using Algorithms.Searching;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Algorithms.Traversal;
 
 namespace Algorithms
 {
@@ -13,7 +6,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            
+            var result = Djikstra.GetShortestPath();
         }
     }
 }
