@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms.DynamicProgramming
+namespace Problems.DynamicProgramming
 {
     //https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
     public class NumberOfEditsToConvertStringAToB

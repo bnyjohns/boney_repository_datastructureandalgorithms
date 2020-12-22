@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms.Graphs
+namespace DataStructures.Graphs
 {
     //Using Adjacency List
-    class UnweightedGraph
+    public class UnweightedGraph
     {
         private Dictionary<int, List<int>> _graph = null;
         private bool _directed = false;

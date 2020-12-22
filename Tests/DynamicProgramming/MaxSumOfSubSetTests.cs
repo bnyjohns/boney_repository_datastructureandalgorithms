@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Algorithms.DynamicProgramming;
+using Problems.DynamicProgramming;
 
 namespace Tests.DynamicProgramming
 {

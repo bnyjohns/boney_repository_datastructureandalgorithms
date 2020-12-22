@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms.Graphs
+namespace DataStructures.Graphs
 {
-    class WeightedGraph
+    public class WeightedGraph
     {
         private bool _directed = false;
         private Dictionary<char, List<Tuple<char,int>>> _graph = null;

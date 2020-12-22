@@ -1,5 +1,4 @@
-﻿using Algorithms.DynamicProgramming;
-using Algorithms.Graphs;
+﻿using Algorithms.Graphs;
 using Algorithms.Searching;
 using System;
 using System.Collections.Generic;
@@ -14,7 +13,7 @@ namespace Algorithms
     {
         public static void Main()
         {
-            TravellingSalesman.Start();
+            
         }
     }
 }

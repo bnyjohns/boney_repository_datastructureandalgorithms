@@ -46,11 +46,23 @@
     <Compile Include="BalancedParanthesis.cs" />
     <Compile Include="CadburyProblem.cs" />
     <Compile Include="ChocolateDistributionProblem.cs" />
+    <Compile Include="DynamicProgramming\CoinChangeProblem.cs" />
+    <Compile Include="DynamicProgramming\FibonacciSeries.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
+    <Compile Include="DynamicProgramming\LongestIncreasingSubSequence.cs" />
+    <Compile Include="DynamicProgramming\MaxSumOfSubSet.cs" />
+    <Compile Include="DynamicProgramming\MinimumStepsToOne.cs" />
+    <Compile Include="DynamicProgramming\NbyNQueens.cs" />
+    <Compile Include="DynamicProgramming\NumberOfEditsToConvertStringAToB.cs" />
+    <Compile Include="DynamicProgramming\SherlockAndCost.cs" />
+    <Compile Include="DynamicProgramming\SubSetSumProblem.cs" />
+    <Compile Include="DynamicProgramming\WeightedJobScheduling.cs" />
     <Compile Include="LastStandingSoldier.cs" />
-    <Compile Include="MaximumSubArray.cs" />
+    <Compile Include="DynamicProgramming\MaximumSubArray.cs" />
     <Compile Include="NumberToWord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TravellingSalesman.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,6 +72,14 @@
       <Project>{E79E0BFB-5673-42CA-A5E2-C06D53898AE5}</Project>
       <Name>Algorithms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataStructures\DataStructures.csproj">
+      <Project>{f49100c1-a13c-4e1c-99b2-b9c94bf3311b}</Project>
+      <Name>DataStructures</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EarthQuake in Africa.txt" />
+    <Content Include="Hare And Tortoise Race.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

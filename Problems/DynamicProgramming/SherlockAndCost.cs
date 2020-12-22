@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms.DynamicProgramming
+namespace Problems.DynamicProgramming
 {
     //https://www.hackerrank.com/challenges/sherlock-and-cost
     public class SherlockAndCost

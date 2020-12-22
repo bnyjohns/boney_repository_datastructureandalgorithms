@@ -1,5 +1,5 @@
-﻿using Algorithms.DynamicProgramming;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Problems.DynamicProgramming;
 using System;
 using System.Collections.Generic;
 using System.Linq;

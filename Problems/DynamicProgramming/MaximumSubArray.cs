@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Problems
+namespace Problems.DynamicProgramming
 {
     public class MaximumSubArray
     {
-        public static void Main()
+        public static void Start()
         {
             var tcNumber = int.Parse(Console.ReadLine());
             for (int i = 0; i < tcNumber; i++)

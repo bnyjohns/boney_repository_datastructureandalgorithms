@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graph\Graph.cs" />
+    <Compile Include="Graph\UnWeightedGraph.cs" />
+    <Compile Include="Graph\WeightedGraph.cs" />
     <Compile Include="LinkedList\CircularLinkedList.cs" />
     <Compile Include="LinkedList\DoublyLinkedList.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />

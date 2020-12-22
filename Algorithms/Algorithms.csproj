@@ -43,26 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DynamicProgramming\CoinChangeProblem.cs" />
-    <Compile Include="DynamicProgramming\FibonacciSeries.cs" />
-    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
-    <Compile Include="DynamicProgramming\LongestIncreasingSubSequence.cs" />
-    <Compile Include="DynamicProgramming\MaxSumOfSubSet.cs" />
-    <Compile Include="DynamicProgramming\MinimumStepsToOne.cs" />
-    <Compile Include="DynamicProgramming\NbyNQueens.cs" />
-    <Compile Include="DynamicProgramming\NumberOfEditsToConvertStringAToB.cs" />
-    <Compile Include="DynamicProgramming\SherlockAndCost.cs" />
-    <Compile Include="DynamicProgramming\SubSetSumProblem.cs" />
-    <Compile Include="DynamicProgramming\WeightedJobScheduling.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Graphs\BreadthFirstSearch.cs" />
     <Compile Include="Graphs\DepthFirstSearch.cs" />
     <Compile Include="Graphs\Djikstra.cs" />
-    <Compile Include="Graphs\EarthQuake In Africa\Solution.cs" />
-    <Compile Include="Graphs\Hare And Tortoise Race\Solution.cs" />
-    <Compile Include="Graphs\TravellingSalesman.cs" />
-    <Compile Include="Graphs\UnWeightedGraph.cs" />
-    <Compile Include="Graphs\WeightedGraph.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Searching\SearchSortedRotatedArray.cs" />
@@ -75,10 +59,6 @@
     <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Subset\Subset.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Graphs\EarthQuake In Africa\EarthQuake in Africa.txt" />
-    <Content Include="Graphs\Hare And Tortoise Race\Problem.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Greedy\" />

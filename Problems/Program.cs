@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Problems.DynamicProgramming;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace Problems
     {        
         static void Main(string[] args)
         {
-            MaximumSubArray.Solve();
+            MaximumSubArray.Start();
         }
 
         
