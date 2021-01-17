@@ -64,6 +64,7 @@
     <Compile Include="Stack\StackUsingQueue.cs" />
     <Compile Include="Tree\BinarySearchTree.cs" />
     <Compile Include="Tree\TreeNode.cs" />
+    <Compile Include="Trie\Trie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
